@@ -6,6 +6,10 @@
 
 <br>
 
+<p>This is a demo that webscrapes data from Amazon.</p>
+
+<br>
+
 ## Resources
 
 [Puppeteer Repository](https://github.com/puppeteer/puppeteer/tree/main#readme)
