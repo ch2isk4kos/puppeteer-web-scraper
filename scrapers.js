@@ -3,9 +3,9 @@ const puppeteer = require("puppeteer");
 // async function scrapeProduct(url) {}
 
 const scrapeProduct = async (url) => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(url);
+  const browser = await puppeteer.launch(); // start browser
+  const page = await browser.newPage(); // start page
+  await page.goto(url); // get page of input url
 };
 
 const url =
