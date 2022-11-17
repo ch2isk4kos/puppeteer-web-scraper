@@ -5,7 +5,7 @@ const puppeteer = require("puppeteer");
 const scrapeProduct = async (url) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  page.goto(url);
+  await page.goto(url);
 };
 
 const url =
