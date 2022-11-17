@@ -13,3 +13,11 @@
 ## Resources
 
 [Puppeteer Repository](https://github.com/puppeteer/puppeteer/tree/main#readme)
+
+<br>
+
+## Getting Started
+
+1. Fork this repository
+2. `cd` into the repository folder
+3. run `npm scrapers.js` from your console
